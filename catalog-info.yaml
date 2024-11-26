@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ceda-temp-a1
+  description: "A temporary library "
+  annotations:
+    github.com/project-slug: cedadev/ceda-temp-a1
+    backstage.io/source-template: template:default/ceda-github-python-library
+spec:
+  type: library
+  owner: user:default/djspstfc
+  lifecycle: experimental
